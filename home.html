@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory Questions DSA Answers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Theory Questions DSA Answers</h1>
+        <div class="qa">
+            <h2>1. What do you mean by Object oriented programming? Advantages of object oriented programming language over procedural (Structural) programming language.</h2>
+            <p>Object-Oriented Programming (OOP):Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavio OOP organizes code into objects representing real-world entities, enhancing modularity, reusability, and scalability. Unlike procedural programming, which is linear and function-based, OOP encapsulates data and behavior, promoting code maintenance and reducing redundancy.</p>
+        </div>
+        <div class="qa">
+            <h2>2. What are the four main features of OOPs?</h2>
+            <p>Main Features of OOP: Encapsulation, inheritance, polymorphism, and abstraction. Encapsulation bundles data and methods, inheritance enables new classes from existing ones, polymorphism allows method overriding, and abstraction simplifies complex systems by focusing on essential features.</p>
+        </div>
+        <div class="qa">
+            <h2>3. What do you mean by class and objects?</h2>
+            <img src="CLASS AND OBJECT.png" alt="Descriptive Text" class="center">
+
+            <p>Class and Objects: A class is a blueprint for creating objects, defining attributes and methods. Objects are instances of classes, representing specific elements with defined properties and behaviors.</p>
+        </div>
+        <div class="qa">
+            <h2>4. Types of variables. Explain with examples?</h2>
+            <p>Types of Variables: Local (defined within methods, limited scope), Instance (defined in class, unique to object), and Static (shared across all instances, class level).</p>
+        </div>
+        <div class="qa">
+            <h2>5. What is a constructor? Different type of constructor with example?</h2>
+            <p>In Java, a constructor initializes objects upon creation. It shares the class name and can accept parameters for custom initialization. If no constructor is defined, Java provides a default constructor. Parameterized constructors allow objects to be initialized with specific values. Constructor overloading enables multiple constructors with different parameter lists. While Java doesn't have a direct equivalent to copy constructors, objects can be cloned using custom methods.</p>
+        </div>
+        <div class="qa">
+            <h2>6. What are the characteristics of an abstract class?</h2>
+            <p> 1) Cannot be instantiated.
+                2) Contains abstract and concrete methods.
+                3) Provides a template for subclasses.
+                4) Promotes code reuse.
+                5) Establishes a common interface for derived classes.
+                6) Can have fields and constructors.
+                7) Helps achieve abstraction in OOP.</p>
+        </div>
+        <div class="qa">
+            <h2>7. Differentiate between abstract class and Interface.</h2>
+            <img src="abstractclass vs interface.png" alt="Descriptive Text" class="center">
+
+            <p>Abstract Class vs Interface: Abstract classes can have method implementations and state; interfaces cannot have implementations (in older Java versions) and represent pure abstraction.</p>
+        </div>
+        <div class="qa">
+            <h2>8. Differentiate between constructor and methods.</h2>
+            <img src="CONS AND METHODS.png" alt="Descriptive Text" class="center">
+
+            <p>Constructor vs Methods: Constructors initialize objects; methods define object behaviors. Constructors have no return type, named after the class, while methods have a return type and can have any name.</p>
+        </div>
+        <div class="qa">
+            <h2>9. Difference between overloading and overriding.</h2>
+            <img src="ridding vs loading.png" alt="Descriptive Text" class="center">
+            <p>Overloading vs Overriding: Overloading involves multiple methods with the same name but different parameters. Overriding means redefining a superclass method in a subclass.</p>
+        </div>
+        <div class="qa">
+            <h2>10. Purpose of this keywords.</h2>
+            <p>Purpose of this keyword: Refers to the current object instance, used to access instance variables, methods, and constructors.</p>
+        </div>
+        <div class="qa">
+            <h2>11. What do you mean by super keyword?</h2>
+            <p>Super Keyword: Refers to the parent class, used to access superclass methods, variables, and constructors.</p>
+        </div>
+        <div class="qa">
+            <h2>12. Purpose of final keyword.</h2>
+            <p>Final Keyword: Used to declare constants, prevent inheritance (final class), and method overriding (final method).</p>
+        </div>
+        <div class="qa">
+            <h2>13. What is auto-boxing and unboxing in java? Explain with some example</h2>
+            <img src="autobox and unbox.png" alt="Descriptive Text" class="center">
+
+            <p>Auto-boxing and Unboxing: Automatic conversion between primitive types and their corresponding object wrappers. Example: int to Integer (auto-boxing), Integer to int (unboxing).</p>
+        </div>
+        <div class="qa">
+            <h2>14. What is Upcasting (widening) And Downcasting (narrowing) in Java?</h2>
+            <img src="upcastingand downcsating.png" alt="Descriptive Text" class="center">
+
+            <p>Upcasting and Downcasting: Upcasting converts a subclass to a superclass type (widening). Downcasting converts a superclass to a subclass type (narrowing).</p>
+        </div>
+        <div class="qa">
+            <h2>15. What happens if an exception is not handled in Java?</h2>
+            <p>Unhandled Exception: If an exception is not handled, the program terminates abruptly, and the call stack is printed, leading to potential data loss and application instability.</p>
+        </div>
+        <div class="qa">
+            <h2>16. Difference between finally and final.</h2>
+            <img src="final vs vs finalize.png" alt="Descriptive Text" class="center">
+
+            <p>Finally vs Final: Finally is a block used in exception handling to execute code regardless of exception. Final is a keyword to define constants, prevent inheritance, and method overriding.</p>
+        </div>
+        <div class="qa">
+            <h2>17. Difference between throw and throws in java.</h2>
+            <img src="throw and throws.png" alt="Descriptive Text" class="center">
+
+            <p>Throw vs Throws: Throw is used to explicitly throw an exception. Throws declare that a method might throw exceptions, delegating error handling to the caller.</p>
+        </div>
+        <div class="qa">
+            <h2>18. What are the differences between error and exception?</h2>
+            <img src="error vs exceptions.png" alt="Descriptive Text" class="center">
+
+            <p>Error vs Exception: Errors are serious system-level issues, generally irrecoverable (e.g., OutOfMemoryError). Exceptions are conditions that applications might want to catch and handle (e.g., IOException).</p>
+        </div>
+        <div class="qa">
+            <h2>19. What is the difference between Checked and Unchecked Exceptions in Java?</h2>
+            <img src="checked vs unchaeked.png" alt="Descriptive Text" class="center">
+
+            <p>Checked vs Unchecked Exceptions: Checked exceptions are checked at compile-time (e.g., IOException). Unchecked exceptions are checked at runtime (e.g., NullPointerException).</p>
+        </div>
+        <div class="qa">
+            <h2>20. Can we have an empty catch block?</h2>
+            <p>Yes, it is technically possible to have an empty `catch` block in Java, but it's considered bad practice. An empty `catch` block does not handle exceptions properly—it silently ignores any exceptions that occur within its corresponding `try` block. This can lead to difficult debugging and unpredictable program behavior since the error is not addressed or logged. It's recommended to at least log the exception or handle it appropriately to maintain application stability and aid in debugging.</p>
+        </div>
+        <div class="qa">
+            <h2>21. Can you have private constructors (yes/no)? If yes then how 1t can
+                be accessed? If no then discuss why</h2>
+            <p>es we can have private constructors in a class and yes they can be made accessible by making some static methods which in turn create the new object for the class. So to make an object of this class, the other class has to use the static methods.</p>
+        </div>
+        <div class="qa">
+            <h2>22. Why main method is sta11c? fa.plain</h2>
+            <p>The main() method in Java is static so that the JVM may call it without creating an instance of the class that contains the main() function. This allows the JVM to start the execution of the program without needing to instantiate any objects.</p>
+        </div>
+        <div class ="qa">
+            <h2> How parameterized con~tructors are accessed in inheritance? Explam with suitable example</h2>
+            <p>In Java inheritance, parameterized constructors of the base class are accessed using the super keyword in the derived class constructor.</p>
+            <img src="super.png" alt="Descriptive Text" class="center">
+
+        </div>
+        <div>
+            <h2></h2>
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>
